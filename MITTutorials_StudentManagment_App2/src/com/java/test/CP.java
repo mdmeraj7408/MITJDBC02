@@ -11,7 +11,7 @@ public class CP {
     		  //step 1: load the driver
     		  Class.forName("com.mysql.jdbc.Driver");
     		  //create the connection
-    		 con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_management","root","123456");
+    		 con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_management","username","password");
 		} catch (Exception e) {
 			
 		}
